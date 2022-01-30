@@ -30,8 +30,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./
-          file: ./dockerfile.v1
+          file: ./Dockerfile
           push: true
           tags: |
-            yevheniitsyliurnyk/lab:ghfront1
+            yevheniitsyliurnyk/lab11:latest
           
